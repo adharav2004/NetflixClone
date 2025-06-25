@@ -1,0 +1,67 @@
+/* General Styling */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #141414;
+}
+
+.navbar-brand {
+  color: #e50914 !important;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://assets.nflxext.com/ffe/siteui/vlv3/408b66a6-a87b-4a82-9cbb-8d274e3c8c38/f589f19f-11f2-405e-bdcd-3db56ec7cd6c/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_large.jpg') 
+  no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Movie Posters */
+.movie-card img {
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+}
